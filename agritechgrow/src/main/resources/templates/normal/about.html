@@ -1,0 +1,21 @@
+<html lang="ar" dir="rtl" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="about-us">
+        <div class="about">
+            <img th:src="@{../img/background.jpg}" class="pic">
+            <div class="text">
+              <h2>About Us</h2>
+              <h5><span>Food Management System</span></h5>
+                <p>The food management system is a web platform designed to track and reduce food waste by facilitating donations from food donors, such as restaurants and grocery stores, to recipient organizations like food banks and shelters. The system has distinct roles for admins, food donors, recipient organizations, and data analysts. Admins manage users and monitor system operations, while food donors can register available food items and track their donations over time. Recipient organizations can view and reserve food donations to meet their needs, and data analysts gain insights through detailed reports and trends to optimize food distribution.</p>
+              <div class="data">
+              <!-- <a th:href="@{/user/index}" class="hire">Hire Me</a> -->
+              </div>
+            </div>
+          </div>
+    </section>
+</body>
+</html>
